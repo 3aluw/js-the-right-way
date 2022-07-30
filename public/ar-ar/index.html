@@ -94,16 +94,16 @@
               <h1>Hey, you!</h1>
 
 <p>
-    This is a guide intended to introduce new developers to JavaScript and help experienced developers learn more about its best practices.
-    هذا الدليل
+
+    الهدف من هذا الدليل هو تقديم جافاسكريبت للمتلعمين المبتدئين،و مساعدة المبرمجين الخبراء لتعلم المزيد عن الطرق الأفضل لاستعمال هذه اللغة.
 </p>
 
 <p>
-    Despite the name, this guide doesn't necessarily mean "the only way" to do JavaScript.
+    بغض النظر عن الاسم، هذه ليست الطريقة الوحيدة لتلم جافاسكريبت
 </p>
 
 <p>
-    We just gather all the articles, tips, and tricks from top developers and put it here. Since it comes from exceptional folks, we could say that it is "the right way", or the best way to do so.
+    نحن فقط جمعنا المقالات الحيل و الطرق من أفضل المبرمجين و وضعناها هنا،و بما أنها أتت من أفضل المبرمجين يمكننا تسميتهاب :"الطريقة الصحيحة" أو أفضل طريقة للقيام بالأمر
 </p>
 
             </div>
@@ -111,44 +111,42 @@
 
         <section class="main" id="main">
             <div class="wrapper">
-                <h1><a href="#main">Choose your path</a></h1>
+                <h1><a href="#main">اختر طريقك</a></h1>
 
                 <ul>
-                    <li><a href="#getting-started">Getting Started</a></li>
-                    <li><a href="#js-code-style">JavaScript Code Style</a></li>
-                    <li><a href="#the-good-parts">The Good Parts</a></li>
-                    <li><a href="#must-see">Must See</a></li>
-                    <li><a href="#patterns">Patterns</a></li>
-                    <li><a href="#testing-tools">Testing Tools</a></li>
-                    <li><a href="#frameworks">Frameworks</a></li>
-                    <li><a href="#game-engines">Game Engines</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#reading">Reading</a></li>
-                    <li><a href="#podcasts">Podcasts</a></li>
-                    <li><a href="#screencasts">Screencasts</a></li>
-                    <li><a href="#whotofollow">Who to follow</a></li>
-                    <li><a href="#paas">PaaS Providers</a></li>
-                    <li><a href="#helpers">Helpers</a></li>
+                    <li><a href="#getting-started">الاستعداد للانطلاق</a></li>
+                    <li><a href="#js-code-style">نمط أكواد جافاسكريبت</a></li>
+                    <li><a href="#the-good-parts">الأجزاء الجيدة</a></li>
+                    <li><a href="#must-see">يجب أن ترى هذا</a></li>
+                    <li><a href="#patterns">الأنماط</a></li>
+                    <li><a href="#testing-tools">أدوات الاختبار</a></li>
+                    <li><a href="#frameworks">إطارات العمل</a></li>
+                    <li><a href="#game-engines">محركات الألعاب</a></li>
+                    <li><a href="#news">أخبار</a></li>
+                    <li><a href="#reading">مقالات</a></li>
+                    <li><a href="#podcasts">بودكاست</a></li>
+                    <li><a href="#screencasts">لقطات الشاشة</a></li>
+                    <li><a href="#whotofollow">من تتابع؟</a></li>
+                    <li><a href="#paas"> "منصة كخدمة" PASS موفرو خدمة  </a></li>
+                    <li><a href="#helpers">المساعدون</a></li>
                 </ul>
             </div>
         </section>
 
         <section class="section" id="getting-started">
             <div class="wrapper">
-                <h1><a href="#getting-started">GETTING STARTED</a></h1>
+                <h1><a href="#getting-started">الاستعداد للانطلاق</a></h1>
                 <h3>ABOUT</h3>
 
 <p>
-    Created by Netscape in 1995 as an extension of HTML for Netscape Navigator 2.0, JavaScript had as its main function the manipulation of HTML documents and form validation.
+    والتحقق من صحة النموذج. HTML 2.0، وكان وظيفته الرئيسية التلاعب بوثائق Netscape Navigator لـ HTML في عام 1995 كامتداد لـ Netscape بواسطة JavaScript تم إنشاء
 
-    Before winning this name so famous nowadays, JavaScript was called Mocha. When it first shipped in beta releases, it was officially called LiveScript and finally, when it was released by Sun Microsystems, was baptized with the name by which it is known today.
-
-    Because of the similar names, people confuse JavaScript with Java. Although both have the lexical structure of programming, they are not the same language.
-
-    Different from C, C# and Java, JavaScript is an interpreted language. It means that it needs an "interpreter". In case of JavaScript, the interpreter is the browser.
+  تم تعميده بالاسم الذي يُعرف به اليوم. Sun Microsystems، وأخيراً، عندما تم إصداره بواسطة LiveScript عندما تم شحنه لأول مرة في إصدارات بيتا، كان يسمى رسميًا Mocha. يسمى JavaScript قبل الفوز بهذا الاسم الشهير في الوقت الحاضر، كان
+ على الرغم من أن كلاهما لديه البنية المعجمية للبرمجة، إلا أنهما ليسا نفس اللغة. Java. و JavaScript بسبب الأسماء المماثلة، يخلط الناس بين
+ يعني هذا أنها تحتاج إلى مترجم ، و فيي حالة جافاسكريبت فإن المترجم هو المتصفح  ، JAVA و #C و C تختلف جافاسكريبت عن
 </p>
 
-<h3>CURRENT VERSION</h3>
+<h3>النسخة الحالية</h3>
 
 <p>
     The JavaScript standard is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. As of June 2015 the spec for ES6/ES2015 has been approved. Following the new annual release cycle, ES7/ES2016 has been adopted in June 2016. See the ECMAScript 2016 Language Specification at <a target="_blank" href="http://www.ecma-international.org/ecma-262/7.0/index.html">Ecma International</a>.
